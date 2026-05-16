@@ -1,0 +1,13 @@
+{
+    "single_req": {},
+    "concurrency": {
+        "0": {
+            "prompt_len_list": [
+                1024
+            ],
+            "throughput_list": [
+                4978.83174272262
+            ]
+        }
+    }
+}

@@ -1,0 +1,22 @@
+nohup: ignoring input
+
+Prefix Ratio: 0.00
+prompt_len: 1024 start eval single request throughput
+prompt_len: 1024, ttft: 252.762079 ms
+prompt_len: 1024, ttft: 257.708788 ms
+prompt_len: 1024, ttft: 254.325390 ms
+prompt_len: 2048 start eval single request throughput
+prompt_len: 2048, ttft: 364.663124 ms
+prompt_len: 2048, ttft: 362.720966 ms
+prompt_len: 2048, ttft: 358.973026 ms
+prompt_len: 4096 start eval single request throughput
+prompt_len: 4096, ttft: 594.467402 ms
+prompt_len: 4096, ttft: 593.347549 ms
+prompt_len: 4096, ttft: 595.035076 ms
+prompt_len: 8192 start eval single request throughput
+prompt_len: 8192, ttft: 823.546648 ms
+prompt_len: 8192, ttft: 832.452536 ms
+prompt_len: 8192, ttft: 839.925289 ms
+prompt_len: 16384 start eval single request throughput
+prompt_len: 16384, ttft: 1332.986832 ms
+start_prefill_throghput.sh: line 19:  3031 Killed                  python3 prefill_throughput.py --base-url http://${VLLM_IP}:${VLLM_PORT} --model ${MODEL_NAME} --max-input-length-k ${MAX_INPUT_LEN_K} --max-input-length-step-k ${MAX_INPUT_STEP_LEN_K} --no-prefix-cache --chunk-size-k ${CHUNK_SIZE_K}

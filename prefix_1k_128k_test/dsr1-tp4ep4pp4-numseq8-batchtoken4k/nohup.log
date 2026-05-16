@@ -1,0 +1,95 @@
+nohup: ignoring input
+
+Prefix Ratio: 0.00
+prompt_len: 1024 start eval single request throughput
+prompt_len: 1024, ttft: 261.984110 ms
+prompt_len: 1024, ttft: 255.551338 ms
+prompt_len: 1024, ttft: 292.990208 ms
+prompt_len: 2048 start eval single request throughput
+prompt_len: 2048, ttft: 352.493286 ms
+prompt_len: 2048, ttft: 352.939606 ms
+prompt_len: 2048, ttft: 417.042255 ms
+prompt_len: 4096 start eval single request throughput
+prompt_len: 4096, ttft: 578.359127 ms
+prompt_len: 4096, ttft: 743.397236 ms
+prompt_len: 4096, ttft: 595.373631 ms
+prompt_len: 8192 start eval single request throughput
+prompt_len: 8192, ttft: 1481.854439 ms
+prompt_len: 8192, ttft: 1497.064590 ms
+prompt_len: 8192, ttft: 1167.442799 ms
+prompt_len: 16384 start eval single request throughput
+prompt_len: 16384, ttft: 3138.360977 ms
+prompt_len: 16384, ttft: 3098.345995 ms
+prompt_len: 16384, ttft: 2527.913094 ms
+prompt_len: 32768 start eval single request throughput
+prompt_len: 32768, ttft: 4609.929562 ms
+prompt_len: 32768, ttft: 4428.958654 ms
+prompt_len: 32768, ttft: 4411.071301 ms
+prompt_len: 49152 start eval single request throughput
+prompt_len: 49152, ttft: 6673.794031 ms
+prompt_len: 49152, ttft: 6702.091455 ms
+prompt_len: 49152, ttft: 6868.869305 ms
+prompt_len: 65536 start eval single request throughput
+prompt_len: 65536, ttft: 9964.643955 ms
+prompt_len: 65536, ttft: 9933.453560 ms
+prompt_len: 65536, ttft: 10101.551771 ms
+prompt_len: 81920 start eval single request throughput
+prompt_len: 81920, ttft: 13956.113338 ms
+prompt_len: 81920, ttft: 14020.713806 ms
+prompt_len: 81920, ttft: 14112.739325 ms
+prompt_len: 98304 start eval single request throughput
+prompt_len: 98304, ttft: 18497.842789 ms
+prompt_len: 98304, ttft: 18572.982788 ms
+prompt_len: 98304, ttft: 18573.602915 ms
+prompt_len: 114688 start eval single request throughput
+prompt_len: 114688, ttft: 17.639160 ms
+prompt_len: 114688, ttft: 18.710136 ms
+prompt_len: 114688, ttft: 17.667294 ms
+prompt_len: 130972 start eval single request throughput
+Traceback (most recent call last):
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/connector.py", line 1298, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohappyeyeballs/impl.py", line 122, in start_connection
+    raise first_exception
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohappyeyeballs/impl.py", line 73, in start_connection
+    sock = await _connect_sock(
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohappyeyeballs/impl.py", line 208, in _connect_sock
+    await loop.sock_connect(sock, address)
+  File "/root/miniconda3/envs/ksy/lib/python3.10/asyncio/selector_events.py", line 501, in sock_connect
+    return await fut
+  File "/root/miniconda3/envs/ksy/lib/python3.10/asyncio/selector_events.py", line 541, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+ConnectionRefusedError: [Errno 111] Connect call failed ('28.85.97.124', 4321)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data2/yinyue_03132026/RecForHuawei_TestModelOnly/02_ZT/04_TEST/csig_test/prefill_throughput.py", line 418, in <module>
+    asyncio.run(prefill_benchmark())
+  File "/root/miniconda3/envs/ksy/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/root/miniconda3/envs/ksy/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/data2/yinyue_03132026/RecForHuawei_TestModelOnly/02_ZT/04_TEST/csig_test/prefill_throughput.py", line 147, in prefill_benchmark
+    throughput = await eval_normal(prompt_len=prompt_len, prefix_ratio=prefix_ratio)
+  File "/data2/yinyue_03132026/RecForHuawei_TestModelOnly/02_ZT/04_TEST/csig_test/prefill_throughput.py", line 206, in eval_normal
+    ttft, _ = await single_task(prompt_ids_list[-1], if_print=False)
+  File "/data2/yinyue_03132026/RecForHuawei_TestModelOnly/02_ZT/04_TEST/csig_test/prefill_throughput.py", line 72, in single_task
+    async with session.post(url, json=data_template) as response:
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/client.py", line 1510, in __aenter__
+    self._resp: _RetType = await self._coro
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/client.py", line 779, in _request
+    resp = await handler(req)
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/client.py", line 734, in _connect_and_send_request
+    conn = await self._connector.connect(
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/connector.py", line 1239, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/connector.py", line 1611, in _create_direct_connection
+    raise last_exc
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/connector.py", line 1580, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/root/miniconda3/envs/ksy/lib/python3.10/site-packages/aiohttp/connector.py", line 1321, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host 28.85.97.124:4321 ssl:default [Connect call failed ('28.85.97.124', 4321)]

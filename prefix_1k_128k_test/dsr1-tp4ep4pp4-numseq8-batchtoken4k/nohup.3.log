@@ -1,0 +1,55 @@
+nohup: ignoring input
+
+Prefix Ratio: 0.00
+prompt_len: 1024 start eval single request throughput
+prompt_len: 1024, ttft: 287.454844 ms
+prompt_len: 1024, ttft: 252.038240 ms
+prompt_len: 1024, ttft: 249.837399 ms
+prompt_len: 2048 start eval single request throughput
+prompt_len: 2048, ttft: 350.085735 ms
+prompt_len: 2048, ttft: 348.349333 ms
+prompt_len: 2048, ttft: 345.448017 ms
+prompt_len: 4096 start eval single request throughput
+prompt_len: 4096, ttft: 574.147940 ms
+prompt_len: 4096, ttft: 569.027662 ms
+prompt_len: 4096, ttft: 570.619345 ms
+prompt_len: 8192 start eval single request throughput
+prompt_len: 8192, ttft: 941.714287 ms
+prompt_len: 8192, ttft: 935.239792 ms
+prompt_len: 8192, ttft: 817.596912 ms
+prompt_len: 16384 start eval single request throughput
+prompt_len: 16384, ttft: 1387.949944 ms
+prompt_len: 16384, ttft: 1426.867485 ms
+prompt_len: 16384, ttft: 1333.402872 ms
+prompt_len: 32768 start eval single request throughput
+prompt_len: 32768, ttft: 2763.140678 ms
+prompt_len: 32768, ttft: 2634.970188 ms
+prompt_len: 32768, ttft: 2641.600847 ms
+prompt_len: 49152 start eval single request throughput
+prompt_len: 49152, ttft: 4458.797693 ms
+prompt_len: 49152, ttft: 4493.919134 ms
+prompt_len: 49152, ttft: 4485.318184 ms
+prompt_len: 65536 start eval single request throughput
+prompt_len: 65536, ttft: 7067.087173 ms
+prompt_len: 65536, ttft: 6965.914249 ms
+prompt_len: 65536, ttft: 7007.296562 ms
+prompt_len: 81920 start eval single request throughput
+prompt_len: 81920, ttft: 10206.603765 ms
+prompt_len: 81920, ttft: 10168.703556 ms
+prompt_len: 81920, ttft: 10185.842276 ms
+prompt_len: 98304 start eval single request throughput
+prompt_len: 98304, ttft: 13916.732073 ms
+prompt_len: 98304, ttft: 13990.946054 ms
+prompt_len: 98304, ttft: 14141.774178 ms
+prompt_len: 114688 start eval single request throughput
+prompt_len: 114688, ttft: 18568.981647 ms
+prompt_len: 114688, ttft: 18511.119604 ms
+prompt_len: 114688, ttft: 18551.714659 ms
+prompt_len: 130972 start eval single request throughput
+prompt_len: 130972, ttft: 23653.640270 ms
+prompt_len: 130972, ttft: 23711.709738 ms
+prompt_len: 130972, ttft: 23853.081703 ms
+save result dict to .//2026-05-15-21-40-32_prefill_throughput_results.json
+save result figure to .//2026-05-15-21-40-32_prefill_throughput.png
+prompt_len: 1024 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 1024:   0%|          | 0/320 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 1024:   0%|          | 1/320 [00:00<02:45,  1.93it/s]eval concurrency throughput, prompt_len: 1024:   1%|          | 2/320 [00:01<02:57,  1.79it/s]eval concurrency throughput, prompt_len: 1024:   2%|▏         | 6/320 [00:01<00:48,  6.44it/s]eval concurrency throughput, prompt_len: 1024:   3%|▎         | 10/320 [00:01<00:41,  7.46it/s]eval concurrency throughput, prompt_len: 1024:   3%|▎         | 10/320 [00:19<00:41,  7.46it/s]start_prefill_throghput.sh: line 19:  2124 Killed                  python3 prefill_throughput.py --base-url http://${VLLM_IP}:${VLLM_PORT} --model ${MODEL_NAME} --max-input-length-k ${MAX_INPUT_LEN_K} --max-input-length-step-k ${MAX_INPUT_STEP_LEN_K} --no-prefix-cache --chunk-size-k ${CHUNK_SIZE_K}
