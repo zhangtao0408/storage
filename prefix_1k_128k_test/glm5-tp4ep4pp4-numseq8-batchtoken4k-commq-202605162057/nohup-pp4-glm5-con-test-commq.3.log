@@ -1,0 +1,98 @@
+nohup: ignoring input
+
+Prefix Ratio: 0.00
+prompt_len: 1024 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 1024:   0%|          | 0/80 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 1024:   1%|▏         | 1/80 [00:00<00:41,  1.88it/s]eval concurrency throughput, prompt_len: 1024:   2%|▎         | 2/80 [00:02<01:31,  1.17s/it]eval concurrency throughput, prompt_len: 1024:   8%|▊         | 6/80 [00:02<00:24,  2.97it/s]eval concurrency throughput, prompt_len: 1024:  12%|█▎        | 10/80 [00:03<00:22,  3.11it/s]eval concurrency throughput, prompt_len: 1024:  18%|█▊        | 14/80 [00:04<00:14,  4.48it/s]eval concurrency throughput, prompt_len: 1024:  22%|██▎       | 18/80 [00:05<00:15,  3.95it/s]eval concurrency throughput, prompt_len: 1024:  28%|██▊       | 22/80 [00:05<00:11,  5.04it/s]eval concurrency throughput, prompt_len: 1024:  32%|███▎      | 26/80 [00:06<00:12,  4.31it/s]eval concurrency throughput, prompt_len: 1024:  38%|███▊      | 30/80 [00:07<00:09,  5.29it/s]eval concurrency throughput, prompt_len: 1024:  42%|████▎     | 34/80 [00:08<00:10,  4.48it/s]eval concurrency throughput, prompt_len: 1024:  48%|████▊     | 38/80 [00:08<00:07,  5.42it/s]eval concurrency throughput, prompt_len: 1024:  52%|█████▎    | 42/80 [00:10<00:08,  4.57it/s]eval concurrency throughput, prompt_len: 1024:  57%|█████▊    | 46/80 [00:10<00:06,  5.49it/s]eval concurrency throughput, prompt_len: 1024:  62%|██████▎   | 50/80 [00:11<00:06,  4.63it/s]eval concurrency throughput, prompt_len: 1024:  68%|██████▊   | 54/80 [00:12<00:04,  5.50it/s]eval concurrency throughput, prompt_len: 1024:  72%|███████▎  | 58/80 [00:13<00:04,  4.64it/s]eval concurrency throughput, prompt_len: 1024:  78%|███████▊  | 62/80 [00:13<00:03,  5.50it/s]eval concurrency throughput, prompt_len: 1024:  82%|████████▎ | 66/80 [00:14<00:02,  4.67it/s]eval concurrency throughput, prompt_len: 1024:  88%|████████▊ | 70/80 [00:15<00:01,  5.52it/s]eval concurrency throughput, prompt_len: 1024:  92%|█████████▎| 74/80 [00:16<00:01,  4.66it/s]eval concurrency throughput, prompt_len: 1024:  98%|█████████▊| 78/80 [00:16<00:00,  6.04it/s]eval concurrency throughput, prompt_len: 1024: 100%|██████████| 80/80 [00:16<00:00,  4.83it/s]
+prompt_len: 1024, throughput: 4939.47 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 2048 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 2048:   0%|          | 0/40 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 2048:   2%|▎         | 1/40 [00:01<00:41,  1.06s/it]eval concurrency throughput, prompt_len: 2048:   5%|▌         | 2/40 [00:01<00:21,  1.78it/s]eval concurrency throughput, prompt_len: 2048:   8%|▊         | 3/40 [00:02<00:29,  1.25it/s]eval concurrency throughput, prompt_len: 2048:  12%|█▎        | 5/40 [00:02<00:16,  2.14it/s]eval concurrency throughput, prompt_len: 2048:  18%|█▊        | 7/40 [00:03<00:11,  2.86it/s]eval concurrency throughput, prompt_len: 2048:  22%|██▎       | 9/40 [00:03<00:09,  3.41it/s]eval concurrency throughput, prompt_len: 2048:  28%|██▊       | 11/40 [00:04<00:09,  3.16it/s]eval concurrency throughput, prompt_len: 2048:  32%|███▎      | 13/40 [00:04<00:07,  3.52it/s]eval concurrency throughput, prompt_len: 2048:  38%|███▊      | 15/40 [00:05<00:06,  3.88it/s]eval concurrency throughput, prompt_len: 2048:  42%|████▎     | 17/40 [00:05<00:05,  4.17it/s]eval concurrency throughput, prompt_len: 2048:  48%|████▊     | 19/40 [00:06<00:05,  3.65it/s]eval concurrency throughput, prompt_len: 2048:  52%|█████▎    | 21/40 [00:06<00:04,  3.85it/s]eval concurrency throughput, prompt_len: 2048:  57%|█████▊    | 23/40 [00:07<00:04,  4.07it/s]eval concurrency throughput, prompt_len: 2048:  62%|██████▎   | 25/40 [00:07<00:03,  4.29it/s]eval concurrency throughput, prompt_len: 2048:  68%|██████▊   | 27/40 [00:08<00:03,  3.82it/s]eval concurrency throughput, prompt_len: 2048:  72%|███████▎  | 29/40 [00:08<00:02,  3.94it/s]eval concurrency throughput, prompt_len: 2048:  78%|███████▊  | 31/40 [00:09<00:02,  4.16it/s]eval concurrency throughput, prompt_len: 2048:  82%|████████▎ | 33/40 [00:09<00:01,  4.36it/s]eval concurrency throughput, prompt_len: 2048:  88%|████████▊ | 35/40 [00:10<00:01,  3.92it/s]eval concurrency throughput, prompt_len: 2048:  92%|█████████▎| 37/40 [00:10<00:00,  3.97it/s]eval concurrency throughput, prompt_len: 2048:  98%|█████████▊| 39/40 [00:11<00:00,  4.18it/s]eval concurrency throughput, prompt_len: 2048: 100%|██████████| 40/40 [00:11<00:00,  3.62it/s]
+prompt_len: 2048, throughput: 7414.68 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 4096 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 4096:   0%|          | 0/20 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 4096:   5%|▌         | 1/20 [00:02<00:39,  2.06s/it]eval concurrency throughput, prompt_len: 4096:  10%|█         | 2/20 [00:02<00:19,  1.09s/it]eval concurrency throughput, prompt_len: 4096:  15%|█▌        | 3/20 [00:02<00:13,  1.27it/s]eval concurrency throughput, prompt_len: 4096:  20%|██        | 4/20 [00:03<00:10,  1.55it/s]eval concurrency throughput, prompt_len: 4096:  25%|██▌       | 5/20 [00:04<00:10,  1.47it/s]eval concurrency throughput, prompt_len: 4096:  30%|███       | 6/20 [00:04<00:08,  1.68it/s]eval concurrency throughput, prompt_len: 4096:  35%|███▌      | 7/20 [00:04<00:07,  1.85it/s]eval concurrency throughput, prompt_len: 4096:  40%|████      | 8/20 [00:05<00:06,  1.98it/s]eval concurrency throughput, prompt_len: 4096:  45%|████▌     | 9/20 [00:06<00:06,  1.76it/s]eval concurrency throughput, prompt_len: 4096:  50%|█████     | 10/20 [00:06<00:05,  1.86it/s]eval concurrency throughput, prompt_len: 4096:  55%|█████▌    | 11/20 [00:06<00:04,  1.96it/s]eval concurrency throughput, prompt_len: 4096:  60%|██████    | 12/20 [00:07<00:03,  2.08it/s]eval concurrency throughput, prompt_len: 4096:  65%|██████▌   | 13/20 [00:08<00:03,  1.84it/s]eval concurrency throughput, prompt_len: 4096:  70%|███████   | 14/20 [00:08<00:03,  1.93it/s]eval concurrency throughput, prompt_len: 4096:  75%|███████▌  | 15/20 [00:08<00:02,  2.02it/s]eval concurrency throughput, prompt_len: 4096:  80%|████████  | 16/20 [00:09<00:01,  2.11it/s]eval concurrency throughput, prompt_len: 4096:  85%|████████▌ | 17/20 [00:10<00:01,  1.87it/s]eval concurrency throughput, prompt_len: 4096:  90%|█████████ | 18/20 [00:10<00:01,  1.93it/s]eval concurrency throughput, prompt_len: 4096:  95%|█████████▌| 19/20 [00:10<00:00,  2.05it/s]eval concurrency throughput, prompt_len: 4096: 100%|██████████| 20/20 [00:11<00:00,  2.10it/s]eval concurrency throughput, prompt_len: 4096: 100%|██████████| 20/20 [00:11<00:00,  1.75it/s]
+prompt_len: 4096, throughput: 7166.58 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 8192 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 8192:   0%|          | 0/10 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 8192:  10%|█         | 1/10 [00:02<00:21,  2.43s/it]eval concurrency throughput, prompt_len: 8192:  20%|██        | 2/10 [00:03<00:11,  1.49s/it]eval concurrency throughput, prompt_len: 8192:  30%|███       | 3/10 [00:04<00:09,  1.33s/it]eval concurrency throughput, prompt_len: 8192:  40%|████      | 4/10 [00:05<00:06,  1.15s/it]eval concurrency throughput, prompt_len: 8192:  50%|█████     | 5/10 [00:06<00:05,  1.14s/it]eval concurrency throughput, prompt_len: 8192:  60%|██████    | 6/10 [00:07<00:04,  1.04s/it]eval concurrency throughput, prompt_len: 8192:  70%|███████   | 7/10 [00:08<00:03,  1.07s/it]eval concurrency throughput, prompt_len: 8192:  80%|████████  | 8/10 [00:09<00:02,  1.01s/it]eval concurrency throughput, prompt_len: 8192:  90%|█████████ | 9/10 [00:10<00:01,  1.03s/it]eval concurrency throughput, prompt_len: 8192: 100%|██████████| 10/10 [00:11<00:00,  1.01it/s]eval concurrency throughput, prompt_len: 8192: 100%|██████████| 10/10 [00:11<00:00,  1.12s/it]
+prompt_len: 8192, throughput: 7283.02 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 16384 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 16384:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 16384:  50%|█████     | 1/2 [00:03<00:03,  3.34s/it]eval concurrency throughput, prompt_len: 16384: 100%|██████████| 2/2 [00:05<00:00,  2.59s/it]eval concurrency throughput, prompt_len: 16384: 100%|██████████| 2/2 [00:05<00:00,  2.70s/it]
+prompt_len: 16384, throughput: 6070.54 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 24576 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 24576:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 24576:  50%|█████     | 1/2 [00:04<00:04,  4.51s/it]eval concurrency throughput, prompt_len: 24576: 100%|██████████| 2/2 [00:07<00:00,  3.59s/it]eval concurrency throughput, prompt_len: 24576: 100%|██████████| 2/2 [00:07<00:00,  3.73s/it]
+prompt_len: 24576, throughput: 6586.73 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 32768 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 32768:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 32768:  50%|█████     | 1/2 [00:05<00:05,  5.50s/it]eval concurrency throughput, prompt_len: 32768: 100%|██████████| 2/2 [00:09<00:00,  4.72s/it]eval concurrency throughput, prompt_len: 32768: 100%|██████████| 2/2 [00:09<00:00,  4.84s/it]
+prompt_len: 32768, throughput: 6774.01 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 40960 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 40960:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 40960:  50%|█████     | 1/2 [00:06<00:06,  6.81s/it]eval concurrency throughput, prompt_len: 40960: 100%|██████████| 2/2 [00:12<00:00,  5.88s/it]eval concurrency throughput, prompt_len: 40960: 100%|██████████| 2/2 [00:12<00:00,  6.02s/it]
+prompt_len: 40960, throughput: 6807.26 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 49152 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 49152:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 49152:  50%|█████     | 1/2 [00:07<00:07,  8.00s/it]eval concurrency throughput, prompt_len: 49152: 100%|██████████| 2/2 [00:14<00:00,  7.16s/it]eval concurrency throughput, prompt_len: 49152: 100%|██████████| 2/2 [00:14<00:00,  7.29s/it]
+prompt_len: 49152, throughput: 6742.43 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 57344 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 57344:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 57344:  50%|█████     | 1/2 [00:09<00:09,  9.30s/it]eval concurrency throughput, prompt_len: 57344: 100%|██████████| 2/2 [00:16<00:00,  8.29s/it]eval concurrency throughput, prompt_len: 57344: 100%|██████████| 2/2 [00:16<00:00,  8.44s/it]
+prompt_len: 57344, throughput: 6793.02 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 65536 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 65536:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 65536:  50%|█████     | 1/2 [00:10<00:10, 10.46s/it]eval concurrency throughput, prompt_len: 65536: 100%|██████████| 2/2 [00:19<00:00,  9.55s/it]eval concurrency throughput, prompt_len: 65536: 100%|██████████| 2/2 [00:19<00:00,  9.69s/it]
+prompt_len: 65536, throughput: 6762.64 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 73728 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 73728:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 73728:  50%|█████     | 1/2 [00:11<00:11, 11.87s/it]eval concurrency throughput, prompt_len: 73728: 100%|██████████| 2/2 [00:21<00:00, 10.84s/it]eval concurrency throughput, prompt_len: 73728: 100%|██████████| 2/2 [00:21<00:00, 11.00s/it]
+prompt_len: 73728, throughput: 6703.85 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 81920 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 81920:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 81920:  50%|█████     | 1/2 [00:13<00:13, 13.02s/it]eval concurrency throughput, prompt_len: 81920: 100%|██████████| 2/2 [00:24<00:00, 12.12s/it]eval concurrency throughput, prompt_len: 81920: 100%|██████████| 2/2 [00:24<00:00, 12.25s/it]
+prompt_len: 81920, throughput: 6685.43 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 90112 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 90112:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 90112:  50%|█████     | 1/2 [00:14<00:14, 14.28s/it]eval concurrency throughput, prompt_len: 90112: 100%|██████████| 2/2 [00:27<00:00, 13.43s/it]eval concurrency throughput, prompt_len: 90112: 100%|██████████| 2/2 [00:27<00:00, 13.56s/it]
+prompt_len: 90112, throughput: 6645.06 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 98304 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 98304:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 98304:  50%|█████     | 1/2 [00:15<00:15, 15.83s/it]eval concurrency throughput, prompt_len: 98304: 100%|██████████| 2/2 [00:29<00:00, 14.75s/it]eval concurrency throughput, prompt_len: 98304: 100%|██████████| 2/2 [00:29<00:00, 14.91s/it]
+prompt_len: 98304, throughput: 6593.26 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 106496 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 106496:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 106496:  50%|█████     | 1/2 [00:16<00:16, 16.91s/it]eval concurrency throughput, prompt_len: 106496: 100%|██████████| 2/2 [00:32<00:00, 15.98s/it]eval concurrency throughput, prompt_len: 106496: 100%|██████████| 2/2 [00:32<00:00, 16.12s/it]
+prompt_len: 106496, throughput: 6605.61 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 114688 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 114688:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 114688:  50%|█████     | 1/2 [00:18<00:18, 18.24s/it]eval concurrency throughput, prompt_len: 114688: 100%|██████████| 2/2 [00:34<00:00, 17.27s/it]eval concurrency throughput, prompt_len: 114688: 100%|██████████| 2/2 [00:34<00:00, 17.41s/it]
+prompt_len: 114688, throughput: 6585.70 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 122880 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 122880:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 122880:  50%|█████     | 1/2 [00:19<00:19, 19.80s/it]eval concurrency throughput, prompt_len: 122880: 100%|██████████| 2/2 [00:37<00:00, 18.79s/it]eval concurrency throughput, prompt_len: 122880: 100%|██████████| 2/2 [00:37<00:00, 18.95s/it]
+prompt_len: 122880, throughput: 6485.99 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
+prompt_len: 130972 start eval concurrency throughput
+eval concurrency throughput, prompt_len: 130972:   0%|          | 0/2 [00:00<?, ?it/s]eval concurrency throughput, prompt_len: 130972:  50%|█████     | 1/2 [00:21<00:21, 21.75s/it]eval concurrency throughput, prompt_len: 130972: 100%|██████████| 2/2 [00:41<00:00, 20.41s/it]eval concurrency throughput, prompt_len: 130972: 100%|██████████| 2/2 [00:41<00:00, 20.61s/it]
+prompt_len: 130972, throughput: 6353.79 tokens / s
+save result dict to .//2026-05-16-12-32-42_prefill_throughput_results.json
+save result figure to .//2026-05-16-12-32-42_prefill_throughput.png
